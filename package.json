@@ -1,0 +1,25 @@
+{
+  "name": "2018_sta_opd2sta",
+  "version": "1.0.0",
+  "description": "Link the OpenWeatherData to any STA",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ThunthepS/2018_sta_opd2sta.git"
+  },
+  "author": "Thunyathep Santhanavanich",
+  "dependencies": {
+    "ajax-request": "^1.2.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "request": "^2.83.0"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/ThunthepS/2018_sta_opd2sta/issues"
+  },
+  "homepage": "https://gitlab.com/ThunthepS/2018_sta_opd2sta#README"
+}
