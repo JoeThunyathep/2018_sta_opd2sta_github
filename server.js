@@ -96,9 +96,10 @@ function postSTA(item, i, nam) {
 
 
 // Run the function every 60 mins
-const period_OWD = 60 * 60 * 1000;
+var period_OWD = 60 * 60 * 1000;
 try {
-	setInterval(insertFunc, period_OWD); // [5min *6000] ms 
+    setInterval(insertFunc, period_OWD); // [5min *6000] ms 
+    console.log("==== Start POSTing the data from OpenWather to SensorThings API ====")
 }
 catch(err) {
 	console.log('->  POST the wind data successful! at' + (new Date().toLocaleString()) + err);
@@ -106,7 +107,7 @@ catch(err) {
 // -----------------
 // Server runs info
 // console.log("Server running at http://localhost:%d", port);
-console.log("==== Start POSTing the data from OpenWather to SensorThings API ====")
+
 
 
 
